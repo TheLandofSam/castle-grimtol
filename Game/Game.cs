@@ -172,7 +172,11 @@ namespace CastleGrimtol.Game
       room28.AddRoom("east", hallJ);
       room28.AddRoom("west", hallI);
       room28.AddRoom("garage", garage);
-
+      room22.AddRoom("east", hallG);
+      room23.AddRoom("east", hallI);
+      room27.AddRoom("west", hallH);
+      room26.AddRoom("west", hallJ);
+      
       _allRooms.Add(stairs);//this gives you access to rooms in the if function! Thanks Jake!
       _allRooms.Add(familyRoomW);
       _allRooms.Add(secondFloorLanding);
